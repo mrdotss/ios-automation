@@ -1,0 +1,31 @@
+import stuff.aho as ah
+
+if __name__ == '__main__':
+    node = ah.OreNode()
+    node.connectNode()
+
+    # Try function below
+    # node.node_get_arp_table()
+    # node.node_get_bgp_config()
+    # node.node_get_bgp_neighbors_detail()
+    # node.node_get_config()
+    # node.node_get_facts()
+    # node.node_get_interfaces()
+    # node.node_get_interfaces_counters()
+    # node.node_get_interfaces_ip()
+    # node.node_get_ipv6_neighbors_table()
+    # node.node_get_lldp_neighbors()
+    # node.node_get_lldp_neighbors_detail()
+    # node.node_get_mac_address_table()
+    # node.node_get_network_instances()
+    # node.node_get_ntp_peers()
+    # node.node_get_ntp_servers()
+    # node.node_get_ntp_stats()
+    # node.node_get_optics()
+    # node.node_get_probes_config()
+    # node.node_get_snmp_information()
+    # node.node_get_users()
+    # node.node_get_vlans()
+    # node.node_is_alive()
+    # node.node_ping()
+    # node.node_traceroute()
