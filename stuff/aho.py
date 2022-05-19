@@ -370,8 +370,8 @@ class OreNode():
     # Traceroute
     def node_traceroute(self):
         try:
-            pprint(self.device.ping('192.168.60.1'))
-            pprint(self.device.traceroute('192.168.60.1'))
+            # pprint(self.device.ping('192.168.60.1'))
+            # pprint(self.device.traceroute('192.168.60.1'))
             print("\nHostname or IP address to trace\nExample: 'google.com' or '10.x.x.x' (without quote)")
             dst = input("\nEnter your destination IP: ")
             max_ttl = 0
